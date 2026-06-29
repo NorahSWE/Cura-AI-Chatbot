@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ar" class="dark" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <title>Login - CuraAI</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="assets/curaai.css" />
+</head>
+<body class="app login-screen">
+  <main class="main">
+    <section class="login-card">
+      <h2 id="loginTitle">تسجيل الدخول</h2>
+      <p id="loginHint">سجل دخولك لتتمتع بمزايا البوت:<br><b></b></p>
+
+      <form id="loginForm" class="login-form">
+        <input id="username" type="text" placeholder="Username" autocomplete="off" />
+        <input id="password" type="password" placeholder="Password" autocomplete="off" />
+        <button type="submit" id="loginSubmit">Login</button>
+      </form>
+
+      <div class="login-msg" id="loginMsg"></div>
+    </section>
+  </main>
+
+  <script src="assets/login.js"></script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html class="dark" lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <title>CuraAI</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="assets/curaai.css" />
+</head>
+
+<body class="app">
+
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <div class="sidebar-top">
+      <div class="sidebar-logo">
+        <img src="assets/logo.png" alt="Hospital Logo">
+      </div>
+
+      <button class="side-btn" id="chatBtn" type="button" title="Chat">💬</button>
+      <button class="side-btn" id="newChatBtn" type="button" title="New chat">＋</button>
+
+      <!-- Language toggle -->
+      <button class="side-btn" id="langBtn" type="button" title="Language">🌐</button>
+    </div>
+
+    <!-- login/logout -->
+    <div class="sidebar-bottom">
+      <button class="side-btn" id="loginBtn" type="button" title="Login">🔐</button>
+      <button class="side-btn" id="logoutBtn" type="button" title="Logout" style="display:none;">🚪</button>
+    </div>
+  </aside>
+
+  <!-- Main Content -->
+  <main class="main">
+
+    <section class="hero">
+      <h1 id="appTitle">CuraAI</h1>
+      <p id="appDesc">
+        CuraAI تشات بوت طبي ذكي خاص بمستشفى الملك خالد بحائل،
+        يهدف إلى مساعدة المرضى في الوصول السريع للمعلومات والخدمات الصحية.
+      </p>
+
+      <input
+        id="askInput"
+        type="text"
+        class="search"
+        placeholder="اسأل CuraAI"
+        autocomplete="off"
+      />
+    </section>
+
+    <section class="cards">
+
+      <div class="card" id="btnEmergency">
+        <h3 id="emTitle">الطوارئ</h3>
+        <p id="emDesc">الاتصال السريع بالإسعاف</p>
+      </div>
+
+      <div class="card" id="btnBook">
+        <h3 id="bookTitle">حجز المواعيد</h3>
+        <p id="bookDesc">التواصل عبر واتساب</p>
+      </div>
+
+      <div class="card" id="btnClinics">
+        <h3 id="clinicsTitle">مواعيد العيادات</h3>
+        <p id="clinicsDesc">من الأحد إلى الخميس: 8 صباحًا إلى 4 مساءً</p>
+      </div>
+
+      <div class="card" id="btnLocation">
+        <h3 id="locTitle">موقع المستشفى</h3>
+        <p id="locDesc">عرض الموقع على الخريطة</p>
+      </div>
+
+    </section>
+
+  </main>
+
+  <script src="assets/curaai.js"></script>
+</body>
+</html>

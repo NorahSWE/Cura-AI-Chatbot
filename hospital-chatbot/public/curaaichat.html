@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ar" class="dark" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <title>CuraAI Chat</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="assets/curaai.css" />
+</head>
+
+<body class="app chat-screen">
+
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <div class="sidebar-top">
+      <div class="sidebar-logo">
+        <img src="assets/logo.png" alt="Hospital Logo" class="sidebar-logo">
+      </div>
+
+      <button class="side-btn" id="backBtn" type="button" title="Back">←</button>
+      <button class="side-btn" id="newChatBtn" type="button" title="New Chat">＋</button>
+
+      <!-- Language toggle -->
+      <button class="side-btn" id="langBtn" type="button" title="Language">🌐</button>
+    </div>
+
+    <!-- login/logout -->
+    <div class="sidebar-bottom">
+      <button class="side-btn" id="loginBtn" type="button" title="Login">🔐</button>
+      <button class="side-btn" id="logoutBtn" type="button" title="Logout" style="display:none;">🚪</button>
+    </div>
+  </aside>
+
+  <!-- Main -->
+  <main class="main">
+    <section class="chat-page">
+
+      <div class="chat-messages" id="chatMessages"></div>
+      <div class="chat-suggestions" id="chatSuggestions"></div>
+
+      <form class="chatbar" id="chatForm" autocomplete="off">
+        <input id="chatInput" type="text" placeholder="اكتب رسالتك..." autocomplete="off" />
+        <button id="chatSend" type="submit">Send</button>
+      </form>
+
+    </section>
+  </main>
+
+  <!-- Left-edge hover hotspot + history drawer -->
+  <div class="history-hotspot" id="historyHotspot" aria-hidden="true"></div>
+
+  <aside class="history-drawer" id="historyDrawer" aria-label="Chat history">
+    <div class="history-header">
+      <div class="history-title" id="historyTitle">آخر المحادثات</div>
+      <button class="history-close" id="historyCloseBtn" type="button" title="Close">×</button>
+    </div>
+    <div class="history-list" id="historyList"></div>
+  </aside>
+
+  <script src="assets/chat.js"></script>
+</body>
+</html>
