@@ -2,6 +2,8 @@
 
 A dedicated AI-powered chatbot system designed to enhance hospital patient services and streamline appointment inquiries.
 
+**Note:** This project was developed as my internship project at King Khalid Hospital in Hail, where I completed a 6-month training period.
+
 ## Project Structure
 - **/api**: Backend logic and API endpoints.
 - **/inc**: Configuration and authentication modules.
