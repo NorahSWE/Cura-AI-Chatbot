@@ -1,27 +1,54 @@
 # Cura AI – Healthcare Chatbot
 
-A bilingual (Arabic/English) healthcare chatbot developed for King Khalid Hospital to help patients and visitors quickly access essential hospital information.
+Cura AI is a bilingual (Arabic/English) healthcare chatbot developed for King Khalid Hospital to help patients and visitors access essential hospital information quickly and efficiently.
 
 ## Features
 
-- Interactive healthcare chatbot
-- Arabic & English support
-- Clinic information
-- Emergency information
-- Pharmacy information
-- Hospital location
-- Visiting hours
-- Real-time responses
+-  Arabic & English support
+-  Interactive chatbot interface
+-  Clinic information
+-  Emergency department information
+-  Pharmacy information
+-  Visiting hours
+-  Hospital location
+-  Conversation history
 
-## Technologies
+## Technologies Used
 
-- PHP
-- MySQL
 - HTML
 - CSS
 - JavaScript
+- PHP
+- MySQL
 
 ## Screenshots
 
+### Home Page
 
+![Home Page](images/home-page.png)
 
+### Arabic Chat
+
+![Arabic Chat](images/arabic-chat.png)
+
+### English Chat
+
+![English Chat](images/english-chat.png)
+
+### Conversation History
+
+![Conversation History](images/chat-history.png)
+
+## Getting Started
+
+1. Install XAMPP.
+2. Start Apache and MySQL.
+3. Import the MySQL database.
+4. Place the project inside the `htdocs` folder.
+5. Open the project in your browser.
+
+## Author
+
+**Norah Aloraimedhi**
+
+Software Engineering Graduate | Full-Stack Developer | IT Support
