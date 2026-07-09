@@ -21,7 +21,7 @@ Cura AI is a bilingual (Arabic/English) healthcare chatbot developed for King Kh
 - PHP
 - MySQL
 
-## Screenshots
+## 📸 Screenshots
 
 ### Home Page
 
